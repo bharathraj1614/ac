@@ -1,0 +1,243 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+/*************************************************** title section *************************************************************/
+#title {
+  background-color: #ff4c68;
+  color: white;
+  overflow: hidden;
+}
+
+.container-fluid {
+  padding: 1% 10% 1%;
+}
+
+/* navbar*/
+.navbar {
+  font-family: 'Ubuntu', sans-serif;
+  padding-bottom: 1rem;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.title-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+/* button */
+.btn-download {
+  margin: 5% 3% 5% 0;
+  box-shadow: none;
+}
+
+.btn-download:focus {
+  box-shadow: none;
+}
+.logo-img{
+  width: 10%;
+}
+
+
+/************************************************* features section *********************************************************/
+#features {
+  padding: 7% 15%;
+  background-color: #ff4c68;
+}
+
+.features-items {
+  text-align: center;
+  line-height: 1.5;
+  color: white;
+  padding: 5%;
+}
+
+.features-icon {
+  color: black;
+  margin: 0 0 1.1rem 0;
+}
+
+option{
+  text-align: center;
+}
+
+.features-icon:hover {
+  color: #c3ff00;
+}
+
+
+.features-heading {
+  font-weight: 900;
+}
+
+p {
+  color: white;
+}
+
+/*****************************************************testimonial section ********************************************************/
+#testimonials {
+  text-align: center;
+  background-color: #ff4c68;
+  color: white;
+}
+
+.testimonial-text {
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.testimonial-img {
+  width: 35%;
+}
+
+.testimonial-im{
+  width: 10%;
+  margin: 3%;
+  border-radius: 100%;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+}
+
+.press-img {
+  width: 15%;
+  padding: 0 2% 7%;
+}
+
+.aka{
+  padding: 7% 15%;
+}
+
+
+/************************************************** Pricing ****************************************************************/
+#pricing {
+  text-align: center;
+  padding: 4% 10%;
+}
+
+.pricing-heading{
+  font-weight: 700;
+  font-size:larger;
+  text-align: left;
+  line-height: 1;
+}
+
+.pricing-heading-rating{
+  text-align: left;
+  color: gray;
+  font-weight: 400;
+}
+
+.card-pricing {
+  margin: 10% 0 0;
+  box-shadow: 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+  border: solid 1px white;
+}
+
+.pricing-card-heading {
+  font-weight: 900;
+}
+form{
+  text-align: center;
+}
+
+.card-body {
+  padding: 7%;
+  padding-left: 9%;
+  text-align: center;
+}
+.row-pricing{
+  padding: 0;
+}
+
+.card-benifits {
+  text-align: left;
+}
+
+.fa-check {
+  color: green;
+}
+
+.fa-times {
+  color: red;
+}
+
+.btn-pricing {
+  margin: 10%;
+  width: 50%;
+}
+
+.btn-pricing:focus {
+  box-shadow: none;
+}
+
+/***************************************************download section  ****************************************************/
+#download {
+  background-color: #ff4c68;
+  color: white;
+  text-align: center;
+  padding: 2% 0;
+}
+
+.download-heading {
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.cta {
+  padding-bottom: 3%;
+}
+
+/******************************************************* footer ***************************************************/
+#footer {
+  padding: 5% 15% 2%;
+  text-align: center;
+}
+
+.footer-icons {
+  margin: 25px;
+  color: black;
+}
+
+.footer-icons:hover {
+  color: white;
+  background-color: black;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------ */
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .navbar-brand{
+    font-size: larger;
+  }
+
+  .title-img {
+    position: static;
+    transform: rotate(0);
+  }
+
+  .testimonial-img {
+    width: 60%;
+  }
+}
