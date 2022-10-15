@@ -237,6 +237,10 @@ form{
     transform: rotate(0);
   }
 
+  .testimonial-text{
+    font-size: larger;
+  }
+
   .testimonial-img {
     width: 60%;
   }
