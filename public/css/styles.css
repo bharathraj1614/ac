@@ -237,7 +237,7 @@ form{
   line-height: 2;
  }
  .navbar-brand{
-  font-size: 5rem;
+  font-size: 3.5rem;
  }
  h3{
   font-size: xx-large;
@@ -274,7 +274,7 @@ form{
     text-align: left;
   }
   .pricing-heading-rating-img{
-    width: 20%;
+    width: 7%;
   }
   p{
     font-size: x-large;
