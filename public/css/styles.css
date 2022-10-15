@@ -231,6 +231,18 @@ form{
 
 /* ------------------------------------------------------------------------------------------------------------------------ */
 @media (max-width: 1028px) {
+ .pricing-heading,{
+  font-size:200%;
+ }
+
+ #testimonials{
+  font-size: 200%;
+ }
+  
+ .input-group{
+  padding: 7%;
+ }
+
   #title {
     text-align: center;
   }
