@@ -236,9 +236,18 @@ form{
   font-size:200%;
   line-height: 2;
  }
-
+ .navbar-brand{
+  font-size: 5rem;
+ }
+ h3{
+  font-size: xx-large;
+ }
  p{
   font-size: 200%;
+ }
+ #features{
+  padding-left: 0;
+  padding-right: 0;
  }
   
  .input-group{
@@ -264,5 +273,12 @@ form{
   .aka{
     text-align: left;
   }
+  .pricing-heading-rating-img{
+    width: 20%;
+  }
+  p{
+    font-size: x-large;
+  }
+  
 
 }
