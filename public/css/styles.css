@@ -242,6 +242,9 @@ form{
  h3{
   font-size: xx-large;
  }
+ h2{
+  font-size:3rem;
+ }
  p{
   font-size: 200%;
  }
