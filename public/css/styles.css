@@ -234,9 +234,10 @@ form{
 @media (max-width: 1028px) {
  .pricing-heading{
   font-size:200%;
+  line-height: 2;
  }
 
- #testimonials{
+ p{
   font-size: 200%;
  }
   
@@ -263,4 +264,5 @@ form{
   .aka{
     text-align: left;
   }
+
 }
