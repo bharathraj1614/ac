@@ -8,7 +8,7 @@ body {
 
 /*************************************************** title section *************************************************************/
 #title {
-  background-color: rgb(0, 195, 255);
+  background-color: rgb(4, 94, 142);
   color: white;
   overflow: hidden;
 }
@@ -60,7 +60,7 @@ body {
 /************************************************* features section *********************************************************/
 #features {
   padding: 7% 15%;
-  background-color: rgb(0, 195, 255);
+  background-color: rgb(4, 94, 142);
 }
 
 .features-items {
@@ -95,7 +95,7 @@ p {
 /*****************************************************testimonial section ********************************************************/
 #testimonials {
   text-align: center;
-  background-color: rgb(0, 195, 255);
+  background-color: rgb(4, 94, 142);
   color: white;
 }
 #testimonials2{
@@ -121,7 +121,7 @@ p {
 }
 
 #press {
-  background-color: rgb(0, 195, 255);
+  background-color: rgb(4, 94, 142);
   text-align: center;
 }
 
